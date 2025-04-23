@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #006666;
+}
+
+label {
+  font-weight: bold;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-size: 18px;
+  color: darkred;
+}

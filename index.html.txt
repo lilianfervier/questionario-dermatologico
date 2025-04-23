@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Questionário de Risco - Câncer de Pele</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Questionário de Risco - Câncer de Pele</h1>
+
+  <form id="formulario">
+    <label>1. Sua pele costuma ficar vermelha ao se expor ao sol?</label><br />
+    <input type="radio" name="q1" value="sim" /> Sim
+    <input type="radio" name="q1" value="nao" /> Não<br /><br />
+
+    <label>2. Você tem muitas pintas ou manchas na pele?</label><br />
+    <input type="radio" name="q2" value="sim" /> Sim
+    <input type="radio" name="q2" value="nao" /> Não<br /><br />
+
+    <label>3. Já teve casos de câncer de pele na sua família?</label><br />
+    <input type="radio" name="q3" value="sim" /> Sim
+    <input type="radio" name="q3" value="nao" /> Não<br /><br />
+
+    <button type="submit">Ver resultado</button>
+  </form>
+
+  <div id="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
